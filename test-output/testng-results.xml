@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4284" started-at="2022-06-23T15:52:46Z" finished-at="2022-06-23T15:52:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4284" started-at="2022-06-23T15:52:46Z" finished-at="2022-06-23T15:52:51Z">
+      <class name="com.mln.demos.JsonValidations">
+        <test-method status="PASS" signature="check_arrayEntries()[pri:0, instance:com.mln.demos.JsonValidations@6fffcba5]" name="check_arrayEntries" duration-ms="3800" started-at="2022-06-23T11:52:46Z" finished-at="2022-06-23T11:52:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_arrayEntries -->
+        <test-method status="PASS" signature="check_editionId()[pri:0, instance:com.mln.demos.JsonValidations@6fffcba5]" name="check_editionId" duration-ms="71" started-at="2022-06-23T11:52:50Z" finished-at="2022-06-23T11:52:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_editionId -->
+        <test-method status="PASS" signature="check_homeCountry()[pri:0, instance:com.mln.demos.JsonValidations@6fffcba5]" name="check_homeCountry" duration-ms="142" started-at="2022-06-23T11:52:50Z" finished-at="2022-06-23T11:52:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_homeCountry -->
+        <test-method status="PASS" signature="check_playerMinHeight()[pri:0, instance:com.mln.demos.JsonValidations@6fffcba5]" name="check_playerMinHeight" duration-ms="122" started-at="2022-06-23T11:52:51Z" finished-at="2022-06-23T11:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_playerMinHeight -->
+        <test-method status="PASS" signature="check_responseTime()[pri:0, instance:com.mln.demos.JsonValidations@6fffcba5]" name="check_responseTime" duration-ms="125" started-at="2022-06-23T11:52:51Z" finished-at="2022-06-23T11:52:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_responseTime -->
+      </class> <!-- com.mln.demos.JsonValidations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
