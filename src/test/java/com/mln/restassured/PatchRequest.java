@@ -1,4 +1,4 @@
-package com.mln.demos;
+package com.mln.restassured;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;

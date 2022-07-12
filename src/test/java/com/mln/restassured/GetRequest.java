@@ -1,4 +1,4 @@
-package com.mln.demos;
+package com.mln.restassured;
 
 import static io.restassured.RestAssured.*;
 

@@ -1,4 +1,4 @@
-package com.mln.demos;
+package com.mln.restassured;
 
 import org.testng.annotations.Test;
 
