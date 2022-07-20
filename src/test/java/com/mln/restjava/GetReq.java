@@ -1,6 +1,5 @@
 package com.mln.restjava;
 
-import static io.restassured.RestAssured.baseURI;
 
 import java.io.BufferedReader;
 import java.io.IOException;
