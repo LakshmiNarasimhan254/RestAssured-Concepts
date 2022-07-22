@@ -1,4 +1,4 @@
-package com.mln.restassured;
+package com.mln.restassured_BDD;
 
 import org.testng.annotations.Test;
 

@@ -1,4 +1,4 @@
-package com.mln.restassured;
+package com.mln.restassured_BDD;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
@@ -6,15 +6,15 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
-public class PutRequest {
+public class PatchRequest {
 	
 	@Test
-	public void putReq(){
+	public void patchReq(){
 		RestAssured.baseURI="https://reqres.in/api";
 		JSONObject jsonObject = new JSONObject();
 		
 		jsonObject.put("name", "Srinath");
-		jsonObject.put("job", "API Automation Tester");
+		jsonObject.put("job", "API Automation Testerrr");
 		
 		RestAssured
 		.given()
@@ -22,11 +22,12 @@ public class PutRequest {
 			.contentType(ContentType.JSON)
 			.body(jsonObject.toJSONString())
 		.when()
-			.put("/users/")
+			.patch("/users/")
 		.then()
 			.statusCode(200)
 			.log().all();
 		
-	}
-	
+
+}
+
 }

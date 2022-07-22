@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1976" started-at="2022-07-21T20:50:18Z" finished-at="2022-07-21T20:50:20Z">
+  <suite name="Default suite" duration-ms="2971" started-at="2022-07-22T04:15:55Z" finished-at="2022-07-22T04:15:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1976" started-at="2022-07-21T20:50:18Z" finished-at="2022-07-21T20:50:20Z">
-      <class name="com.mln.restassured_NonBDD.PutRequest">
-        <test-method status="PASS" signature="putRequest()[pri:0, instance:com.mln.restassured_NonBDD.PutRequest@6fffcba5]" name="putRequest" duration-ms="1965" started-at="2022-07-21T16:50:18Z" finished-at="2022-07-21T16:50:20Z">
+    <test name="Default test" duration-ms="2971" started-at="2022-07-22T04:15:55Z" finished-at="2022-07-22T04:15:58Z">
+      <class name="com.mln.jsonConstruction.Serialization">
+        <test-method status="PASS" signature="serialize()[pri:0, instance:com.mln.jsonConstruction.Serialization@7907ec20]" name="serialize" duration-ms="2952" started-at="2022-07-22T00:15:55Z" finished-at="2022-07-22T00:15:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- putRequest -->
-      </class> <!-- com.mln.restassured_NonBDD.PutRequest -->
+        </test-method> <!-- serialize -->
+      </class> <!-- com.mln.jsonConstruction.Serialization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

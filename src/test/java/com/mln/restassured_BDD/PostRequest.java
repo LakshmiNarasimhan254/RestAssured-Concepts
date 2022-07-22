@@ -1,4 +1,4 @@
-package com.mln.restassured;
+package com.mln.restassured_BDD;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
