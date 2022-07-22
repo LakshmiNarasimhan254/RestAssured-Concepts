@@ -1,0 +1,212 @@
+{
+  "Students": [
+    {
+      "first_Name": "Michael",
+      "last_Name": "Gopa",
+      "age": 34,
+      "id": 1,
+      "subjectId": 2,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "Madan",
+      "Last_ Name": "Gopal",
+      "age": 27,
+      "id": 2,
+      "subjectId": 2,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "Kameshwaran",
+      "last_Name": "Gopal",
+      "age": 27,
+      "id": 3,
+      "subjectId": 2,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "SubramaniyaRaju",
+      "last_Name": "Gopal",
+      "age": 27,
+      "id": 4,
+      "subjectId": 1,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "Ram",
+      "last_Name": "CM",
+      "age": 45,
+      "id": 5,
+      "subjectId": 1,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "Aiyappan",
+      "last_Name": "Nair",
+      "age": 42,
+      "id": 6,
+      "subjectId": 2,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "Ganesh",
+      "last_Name": "Hegde",
+      "age": 43,
+      "id": 7,
+      "subjectId": 2,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "Vedam",
+      "last_Name": "Iyengar",
+      "age": 44,
+      "id": 8,
+      "subjectId": 1,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "Hanumanth",
+      "last_Name": "Reddy",
+      "age": 44,
+      "id": 9,
+      "subjectId": 1,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "First Name": "Sakthivel",
+      "Last Name": "Counder",
+      "age": 34,
+      "id": 10,
+      "subjectId": 2,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "First Name": "Velu",
+      "Last Name": "Nayakar",
+      "age": 48,
+      "id": 11,
+      "subjectId": 2,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "First Name": "Avatar",
+      "Last Name": "Singh",
+      "age": 50,
+      "subjectId": 1,
+      "id": 12,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "Govind",
+      "last_Name": "Ramasamy",
+      "age": 27,
+      "id": 13,
+      "subjectId": 1,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "Rangaraj",
+      "last_Name": "Nambi",
+      "age": 27,
+      "id": 14,
+      "subjectId": 2,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "George",
+      "last_Name": "Bush",
+      "subjectId": 1,
+      "id": 15,
+      "age": 65,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "Singan",
+      "last_Name": "Narahasi",
+      "age": 42,
+      "id": 16,
+      "subjectId": 2,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    },
+    {
+      "first_Name": "Christian",
+      "skills": [
+        "Java",
+        "Python"
+      ],
+      "last_Name": "Fletcher",
+      "id": 17,
+      "subjectId": 1,
+      "age": 51
+    },
+    {
+      "id": 18,
+      "skills": [
+        "Java",
+        "Python"
+      ],
+      "first_Name": "Krishnaveni",
+      "subjectId": 1,
+      "last_Name": "Patti",
+      "age": 98
+    }
+  ],
+  "Subjects": [
+    {
+      "name": "Automation",
+      "id": 1
+    },
+    {
+      "name": "JSON",
+      "id": 2
+    }
+  ]
+}

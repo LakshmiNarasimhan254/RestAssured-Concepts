@@ -1,0 +1,139 @@
+ {
+		"editionId": 2022,
+		"data": {
+			"homeCountry": "India",
+			"visitingCountry": "Pakistan",
+			"playerCount": 11,
+			"playerMinHeight": 6.2,
+			"id": 1,
+			"gameId": 2
+		},
+		"games": [{
+				"date": "2022-07-022T13:33:03.969Z",
+				"venue": "Chennai",
+				"id": 1
+			},
+			{
+				"date": "2022-07-023T13:33:03.969Z",
+				"venue": "Banglore",
+				"id": 2
+			},
+			{
+				"date": "2022-07-024T13:33:03.969Z",
+				"venue": "Kolkatta",
+				"id": 3
+			}
+
+		],
+		"teams": [{
+				"Name": "India",
+				"id": 1,
+				"playerCount": 11,
+				"players": [{
+						"playerName": "Sachin",
+						"id": 1
+					},
+					{
+						"playerName": "Ganguly",
+						"id": 2
+					},
+					{
+						"playerName": "Shewag",
+						"id": 3
+					},
+					{
+						"playerName": "Dravid",
+						"id": 4
+					},
+					{
+						"playerName": "Yuvraj",
+						"id": 5
+					},
+					{
+						"playerName": "Dhoni",
+						"id": 6
+					},
+					{
+						"playerName": "Pathan",
+						"id": 7
+					},
+					{
+						"playerName": "Harbhajan",
+						"id": 8
+					},
+					{
+						"playerName": "Kumble",
+						"id": 9
+					},
+					{
+						"playerName": "Zaheer",
+						"id": 10
+					},
+					{
+						"playerName": "Nehra",
+						"id": 11
+					},
+					{
+						"playerName": "Gambhir",
+						"id": 12
+					}
+
+				]
+			},
+			{
+				"Name": "Pakistan",
+				"id": 2,
+				"playerCount": 11,
+				"players": [{
+						"playerName": "Anwar",
+						"id": 1
+					},
+					{
+						"playerName": "Yousuf",
+						"id": 2
+					},
+					{
+						"playerName": "Younis",
+						"id": 3
+					},
+					{
+						"playerName": "Malik",
+						"id": 4
+					},
+					{
+						"playerName": "Inzamam",
+						"id": 5
+					},
+					{
+						"playerName": "Afridi",
+						"id": 6
+					},
+					{
+						"playerName": "Moin",
+						"id": 7
+					},
+					{
+						"playerName": "Akram",
+						"id": 8
+					},
+					{
+						"playerName": "Akthar",
+						"id": 9
+					},
+					{
+						"playerName": "Saqline",
+						"id": 10
+					},
+					{
+						"playerName": "Waqar",
+						"id": 11
+					}
+				]
+			}
+
+
+
+
+		]
+
+	}
