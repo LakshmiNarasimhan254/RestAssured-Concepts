@@ -1,0 +1,91 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"default": {
+	},
+	"title": "Root Schema",
+	"required": [
+		"first_Name",
+		"last_Name",
+		"age",
+		"id",
+		"subjectId",
+		"skills"
+	],
+	"properties": {
+		"first_Name": {
+			"type": "string",
+			"default": "",
+			"title": "The first_Name Schema",
+			"examples": [
+				"Kameshwaran"
+			]
+		},
+		"last_Name": {
+			"type": "string",
+			"default": "",
+			"title": "The last_Name Schema",
+			"examples": [
+				"Gopal"
+			]
+		},
+		"age": {
+			"type": "integer",
+			"default": 0,
+			"title": "The age Schema",
+			"examples": [
+				27
+			]
+		},
+		"id": {
+			"type": "integer",
+			"default": 0,
+			"title": "The id Schema",
+			"examples": [
+				3
+			]
+		},
+		"subjectId": {
+			"type": "integer",
+			"default": 0,
+			"title": "The subjectId Schema",
+			"examples": [
+				2
+			]
+		},
+		"skills": {
+			"type": "array",
+			"default": [
+			],
+			"title": "The skills Schema",
+			"items": {
+				"type": "string",
+				"title": "A Schema",
+				"examples": [
+					"Java",
+					"Python"
+				]
+			},
+			"examples": [
+				[
+					"Java",
+					"Python"
+				]
+			]
+		}
+	},
+	"examples": [
+		{
+			"first_Name": "Kameshwaran",
+			"last_Name": "Gopal",
+			"age": 27,
+			"id": 3,
+			"subjectId": 2,
+			"skills": [
+				"Java",
+				"Python"
+			]
+		}
+	]
+}

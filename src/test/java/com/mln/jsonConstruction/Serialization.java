@@ -16,7 +16,7 @@ public class Serialization {
 	@Test
     public void serialize(){
     	Map<String,Object> JsonBody = new HashMap<String,Object>();
-    	List <String> skils = new<String>ArrayList();
+    	List <String> skils = new ArrayList<String>();
     	skils.add("Java");
     	skils.add("Selenium");
     	JsonBody.put("First_Name", "Christian");

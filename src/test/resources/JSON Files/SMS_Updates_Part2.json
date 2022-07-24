@@ -1,0 +1,24 @@
+[
+{
+  "first_Name": "George",
+  "last_Name": "Bush",
+  "subjectId": 1,
+  "id": 15,
+  "age": 65,
+   "skills": [
+        "Java",
+        "Python"
+      ]
+  },
+{
+  "first_Name": "Singan",
+  "fast_Name": "Narahasi",
+  "age": 42,
+   "id": 16,
+  "subjectId": 2,
+  "skills": [
+        "Java",
+        "Python"
+      ]
+}
+]
