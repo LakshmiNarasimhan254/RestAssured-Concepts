@@ -10,7 +10,7 @@
     <classes>
       <class name="com.mln.json_Schema.JSON_SchemaValidation">
         <methods>
-          <include name="validation_JSON_Schema"/>
+          <include name="validation_JSON_Schema_asReader"/>
         </methods>
       </class> <!-- com.mln.json_Schema.JSON_SchemaValidation -->
     </classes>

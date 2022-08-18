@@ -4,6 +4,7 @@
 	<groupId>RestAssuredProject</groupId>
 	<artifactId>RestAssuredProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 		<dependency>
@@ -35,21 +36,20 @@
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
 		<!-- Used for json schema validation -->
-		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>json-schema-validator</artifactId>
 			<version>5.1.1</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.github.fge/json-schema-validator -->
+		<!-- https://mvnrepository.com/artifact/com.networknt/json-schema-validator -->
+		<!-- Used for json schema validation -->
 		<dependency>
-			<groupId>com.github.fge</groupId>
+			<groupId>com.networknt</groupId>
 			<artifactId>json-schema-validator</artifactId>
-			<version>2.2.6</version>
+			<version>1.0.72</version>
 		</dependency>
-
-
 
 
 	</dependencies>

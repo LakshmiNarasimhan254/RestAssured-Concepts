@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\laksh\AppData\Local\Temp\testng-eclipse-994129491\testng-customsuite.xml</span>
+                    <span>C:\Users\laksh\AppData\Local\Temp\testng-eclipse--2137439565\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mln.json_Schema.JSON_SchemaValidation" hash-for-method="validation_JSON_Schema">validation_JSON_Schema</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mln.json_Schema.JSON_SchemaValidation" hash-for-method="validation_JSON_Schema_asReader">validation_JSON_Schema_asReader</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -125,44 +125,14 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validation_JSON_Schema">
-                  </a> <!-- validation_JSON_Schema -->
-                  <span class="method-name">validation_JSON_Schema</span>
-                  <div class="stack-trace">java.lang.IncompatibleClassChangeError: Found class com.github.fge.jsonschema.main.JsonSchema, but interface was expected
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesSafely(JsonSchemaValidator.java:227)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesSafely(JsonSchemaValidator.java:75)
-	at org.hamcrest.TypeSafeMatcher.matches(TypeSafeMatcher.java:67)
-	at io.restassured.internal.assertion.BodyMatcher.validate(BodyMatcher.java:82)
-	at io.restassured.internal.assertion.BodyMatcherGroup.lambda$validate$0(BodyMatcherGroup.java:30)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.collect(Unknown Source)
-	at io.restassured.internal.assertion.BodyMatcherGroup.validate(BodyMatcherGroup.java:30)
-	at io.restassured.internal.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:157)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
-	at com.mln.json_Schema.JSON_SchemaValidation.validation_JSON_Schema(JSON_SchemaValidation.java:48)
+                  <a name="validation_JSON_Schema_asReader">
+                  </a> <!-- validation_JSON_Schema_asReader -->
+                  <span class="method-name">validation_JSON_Schema_asReader</span>
+                  <div class="stack-trace">io.restassured.module.jsv.JsonSchemaValidationException: com.fasterxml.jackson.core.JsonParseException: Unrecognized token &apos;java&apos;: was expecting (JSON String, Number, Array, Object or token &apos;null&apos;, &apos;true&apos; or &apos;false&apos;)
+ at [Source: (StringReader); line: 1, column: 5]
+	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:286)
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:107)
+	at com.mln.json_Schema.JSON_SchemaValidation.validation_JSON_Schema_asReader(JSON_SchemaValidation.java:90)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -187,6 +157,22 @@
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token &apos;java&apos;: was expecting (JSON String, Number, Array, Object or token &apos;null&apos;, &apos;true&apos; or &apos;false&apos;)
+ at [Source: (StringReader); line: 1, column: 5]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:745)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2961)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2002)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:802)
+	at com.fasterxml.jackson.databind.MappingIterator.hasNextValue(MappingIterator.java:246)
+	at com.github.fge.jackson.JsonNodeReader.readNode(JsonNodeReader.java:149)
+	at com.github.fge.jackson.JsonNodeReader.fromReader(JsonNodeReader.java:129)
+	at com.github.fge.jackson.JsonLoader.fromReader(JsonLoader.java:186)
+	at com.github.fge.jackson.JsonLoader.fromString(JsonLoader.java:199)
+	at io.restassured.module.jsv.JsonSchemaValidator$1.createSchemaInstance(JsonSchemaValidator.java:105)
+	at io.restassured.module.jsv.JsonSchemaValidator$1.createSchemaInstance(JsonSchemaValidator.java:102)
+	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:284)
+	... 26 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -196,7 +182,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\laksh\AppData\Local\Temp\testng-eclipse-994129491\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\laksh\AppData\Local\Temp\testng-eclipse--2137439565\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -247,14 +233,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validation_JSON_Schema')
+data.setCell(0, 1, 'validation_JSON_Schema_asReader')
 data.setCell(0, 2, 'com.mln.json_Schema.JSON_SchemaValidation')
-data.setCell(0, 3, 2128);
+data.setCell(0, 3, 1950);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -269,9 +255,20 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.mln.json_Schema.JSON_SchemaValidation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validation_JSON_Schema_ClasspathMethod</span>
+                <br/>
+                <span class="ignored-method-name">validation_JSON_Schema_asFile</span>
+                <br/>
+                <span class="ignored-method-name">validation_JSON_Schema_asInputStream</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -284,7 +281,7 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">validation_JSON_Schema</span>
+                <span class="method-name">validation_JSON_Schema_asReader</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
