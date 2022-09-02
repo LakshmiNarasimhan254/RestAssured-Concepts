@@ -4,52 +4,82 @@
 	<groupId>RestAssuredProject</groupId>
 	<artifactId>RestAssuredProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+
+		<restassured.version>5.1.1</restassured.version>
+		<testng.version>7.6.0</testng.version>
+		<jsonsimple.version>1.1.1</jsonsimple.version>
+		<jacksondatabind.version>2.13.3</jacksondatabind.version>
+		<restassuredjsonschemavalidator.version>5.1.1</restassuredjsonschemavalidator.version>
+		<networkntjsonschemavalidator.version>1.0.72</networkntjsonschemavalidator.version>
+		<hamcrest.version>2.2</hamcrest.version>
+		<commonsion.version>2.11.0</commonsion.version>
+		<scope>test</scope>
+		
+	</properties>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
-			<version>5.1.1</version>
-			<scope>test</scope>
+			<version>${restassured.version}</version>
+			<scope>${scope}</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.6.0</version>
-			<scope>test</scope>
+			<version>${testng.version}</version>
+			<scope>${scope}</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
-			<version>1.1.1</version>
+			<version>${jsonsimple.version}</version>
+			<scope>${scope}</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-		<!-- Used for serialisation , that is converting a java object in to Json 
+		<!-- Used for serialization , that is converting a java object in to JSON 
 			object -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.13.3</version>
+			<version>${jacksondatabind.version}</version>
+			<scope>${scope}</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
-		<!-- Used for json schema validation -->
-
+		<!-- Used for JSON schema validation -->
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>json-schema-validator</artifactId>
-			<version>5.1.1</version>
-			<scope>test</scope>
+			<version>${restassuredjsonschemavalidator.version}</version>
+			<scope>${scope}</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.networknt/json-schema-validator -->
 		<!-- Used for json schema validation -->
 		<dependency>
 			<groupId>com.networknt</groupId>
 			<artifactId>json-schema-validator</artifactId>
-			<version>1.0.72</version>
+			<version>${networkntjsonschemavalidator.version}</version>
+			<scope>${scope}</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest</artifactId>
+			<version>${hamcrest.version}</version>
+			<scope>${scope}</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commonsion.version}</version>
+			<scope>${scope}</scope>
+		</dependency>
+
 
 
 	</dependencies>

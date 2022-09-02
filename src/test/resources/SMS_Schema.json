@@ -11,8 +11,8 @@
 		"age",
 		"id",
 		"subjectId",
-		"skills",
-		"dummy"		
+		"skills"
+			
 	],
 	"properties": {
 		"first_Name": {

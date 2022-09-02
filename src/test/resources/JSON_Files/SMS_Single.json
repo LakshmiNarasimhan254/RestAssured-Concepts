@@ -1,0 +1,11 @@
+{
+      "first_Name": "Michael",
+      "last_Name": "Gopa",
+      "age": 34,
+      "id": 1,
+      "subjectId": 2,
+      "skills": [
+        "Java",
+        "Python"
+      ]
+    }
