@@ -1,0 +1,251 @@
+{
+	
+	"bilateral-series": {
+		"editionId": 2022,
+		"homeCountry": "India",
+		"visitingCountry": "Pakistan",
+		"playersCount": 22,
+		"playerMinHeight": 6.2,
+		"totalmatches": 3
+	},
+	"matches": [
+		{
+			"date": "2022-07-022T13:33:03.969Z",
+			"venue": "Chennai",
+			"matchid": 1
+		},
+		{
+			"date": "2022-07-023T13:33:03.969Z",
+			"venue": "Banglore",
+			"matchid": 2
+		},
+		{
+			"date": "2022-07-024T13:33:03.969Z",
+			"venue": "Kolkatta",
+			"matchid": 3
+		}
+	],
+	"teams": [
+		{
+			"Name": "India",
+			"teamid": 1,
+			"squadcount": 11,
+			"players": [
+				{
+					"playerName": "Sachin",
+					"playerid": 1,
+					"skills": [
+						"batting",
+						"bowling",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Ganguly",
+					"playerid": 2,
+					"skills": [
+						"batting",
+						"bowling",
+						"fielding"
+					],
+					"role": "Captain"
+				},
+				{
+					"playerName": "Shewag",
+					"playerid": 3,
+					"skills": [
+						"batting",
+						"bowling",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Dravid",
+					"playerid": 4,
+					"skills": [
+						"batting",
+						"wicket-keeping"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Yuvraj",
+					"playerid": 5,
+					"skills": [
+						"batting",
+						"bowling",
+						"fielding"
+					],
+					"role": "Vice-Captain"
+				},
+				{
+					"playerName": "Dhoni",
+					"playerid": 6,
+					"skills": [
+						"batting",
+						"wicket-keeping"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Pathan",
+					"playerid": 7,
+					"skills": [
+						"bowling",
+						"batting",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Harbhajan",
+					"playerid": 8,
+					"skills": [
+						"bowling",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Kumble",
+					"playerid": 9,
+					"skills": [
+						"bowling",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Zaheer",
+					"playerid": 10,
+					"skills": [
+						"bowling",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Nehra",
+					"playerid": 11,
+					"skills": [
+						"bowling",
+						"fielding"
+					],
+					"role": "Player"
+				}
+			]
+		},
+		{
+			"Name": "Pakistan",
+			"teamid": 2,
+			"squadcount": 11,
+			"players": [
+				{
+					"playerName": "Anwar",
+					"playerid": 1,
+					"skills": [
+						"batting",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Yousuf",
+					"playerid": 2,
+					"skills": [
+						"batting",
+						"bowling",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Younis",
+					"playerid": 3,
+					"skills": [
+						"batting",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Malik",
+					"playerid": 4,
+					"skills": [
+						"batting",
+						"bowling",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Inzamam",
+					"playerid": 5,
+					"skills": [
+						"batting",
+						"fielding"
+					],
+					"role": "Captain"
+				},
+				{
+					"playerName": "Afridi",
+					"playerid": 6,
+					"skills": [
+						"batting",
+						"bowling",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Moin",
+					"playerid": 7,
+					"skills": [
+						"batting",
+						"wicket-keeping"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Akram",
+					"playerid": 8,
+					"skills": [
+						"batting",
+						"bowling",
+						"fielding"
+					],
+					"role": "Vice-Captain"
+				},
+				{
+					"playerName": "Akthar",
+					"playerid": 9,
+					"skills": [
+						"bowling",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Saqline",
+					"playerid": 10,
+					"skills": [
+						"bowling",
+						"fielding"
+					],
+					"role": "Player"
+				},
+				{
+					"playerName": "Waqar",
+					"playerid": 11,
+					"skills": [
+						"bowling",
+						"fielding"
+					],
+					"role": "Player"
+				}
+			]
+		}
+	]
+}
