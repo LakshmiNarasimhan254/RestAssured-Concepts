@@ -1,5 +1,6 @@
 # Default ignored files
 /shelf/
-/workspace.xmlgit
-/*.html
+/workspace.xml
+*.html
+
 
