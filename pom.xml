@@ -1,107 +1,112 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>RestAssuredProject</groupId>
-	<artifactId>RestAssuredProject</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<properties>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>RestAssuredProject</groupId>
+    <artifactId>RestAssuredProject</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <properties>
 
-		<restassured.version>5.1.1</restassured.version>
-		<testng.version>7.6.0</testng.version>
-		<jsonsimple.version>1.1.1</jsonsimple.version>
-		<jacksondatabind.version>2.13.3</jacksondatabind.version>
-		<restassuredjsonschemavalidator.version>5.1.1</restassuredjsonschemavalidator.version>
-		<networkntjsonschemavalidator.version>1.0.72</networkntjsonschemavalidator.version>
-		<hamcrest.version>2.2</hamcrest.version>
-		<commonsion.version>2.11.0</commonsion.version>
-		<jaywayJsonPath.version>2.7.0</jaywayJsonPath.version>
-		<scope>test</scope>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
-		<slf4j-simple>1.6.6</slf4j-simple>
+        <restassured.version>5.1.1</restassured.version>
+        <testng.version>7.6.0</testng.version>
+        <jsonsimple.version>1.1.1</jsonsimple.version>
+        <jacksondatabind.version>2.13.3</jacksondatabind.version>
+        <restassuredjsonschemavalidator.version>5.1.1</restassuredjsonschemavalidator.version>
+        <networkntjsonschemavalidator.version>1.0.72</networkntjsonschemavalidator.version>
+        <hamcrest.version>2.2</hamcrest.version>
+        <commonsion.version>2.11.0</commonsion.version>
+        <jaywayJsonPath.version>2.7.0</jaywayJsonPath.version>
+        <scope>test</scope>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <slf4j-simple.version>1.6.6</slf4j-simple.version>
+        <lombok.version>1.18.12</lombok.version>
 
-	</properties>
+    </properties>
 
-	<dependencies>
-		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
-		<dependency>
-			<groupId>io.rest-assured</groupId>
-			<artifactId>rest-assured</artifactId>
-			<version>${restassured.version}</version>
-			<scope>${scope}</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>${testng.version}</version>
-			<scope>${scope}</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
-		<dependency>
-			<groupId>com.googlecode.json-simple</groupId>
-			<artifactId>json-simple</artifactId>
-			<version>${jsonsimple.version}</version>
-			<scope>${scope}</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-		<!-- Used for serialization , that is converting a java object in to JSON 
-			object -->
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>${jacksondatabind.version}</version>
-			<scope>${scope}</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
-		<!-- Used for JSON schema validation -->
-		<dependency>
-			<groupId>io.rest-assured</groupId>
-			<artifactId>json-schema-validator</artifactId>
-			<version>${restassuredjsonschemavalidator.version}</version>
-			<scope>${scope}</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.networknt/json-schema-validator -->
-		<!-- Used for json schema validation -->
-		<dependency>
-			<groupId>com.networknt</groupId>
-			<artifactId>json-schema-validator</artifactId>
-			<version>${networkntjsonschemavalidator.version}</version>
-			<scope>${scope}</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
-		<dependency>
-			<groupId>org.hamcrest</groupId>
-			<artifactId>hamcrest</artifactId>
-			<version>${hamcrest.version}</version>
-			<scope>${scope}</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>${commonsion.version}</version>
-			<scope>${scope}</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
-		<dependency>
-			<groupId>com.jayway.jsonpath</groupId>
-			<artifactId>json-path</artifactId>
-			<version>${jaywayJsonPath.version}</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-			<version>${slf4j-simple}</version>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${restassured.version}</version>
+            <scope>${scope}</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>${scope}</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>${jsonsimple.version}</version>
+            <scope>${scope}</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <!-- Used for serialization , that is converting a java object in to JSON
+            object -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jacksondatabind.version}</version>
+            <scope>${scope}</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+        <!-- Used for JSON schema validation -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>${restassuredjsonschemavalidator.version}</version>
+            <scope>${scope}</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.networknt/json-schema-validator -->
+        <!-- Used for json schema validation -->
+        <dependency>
+            <groupId>com.networknt</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>${networkntjsonschemavalidator.version}</version>
+            <scope>${scope}</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>${hamcrest.version}</version>
+            <scope>${scope}</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commonsion.version}</version>
+            <scope>${scope}</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <version>${jaywayJsonPath.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j-simple.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <!-- Used for json pojo deserailization  -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>${scope}</scope>
+        </dependency>
 
-		</dependency>
 
 
-
-
-
-
-	</dependencies>
+    </dependencies>
 
 </project>

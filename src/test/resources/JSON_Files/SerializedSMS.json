@@ -1,0 +1,24 @@
+{
+  "Subjects" : [ {
+    "name" : "Ilavarasan",
+    "id" : "1"
+  }, {
+    "name" : "Raja",
+    "id" : "2"
+  } ],
+  "Students" : [ {
+    "first_Name" : "Aditha",
+    "last_Name" : "Karikalan",
+    "subjectId" : 1,
+    "age" : 35,
+    "id" : 1,
+    "skills" : [ "Elephant fight", "Romance" ]
+  }, {
+    "first_Name" : "ArulMozhi",
+    "last_Name" : "Verman",
+    "subjectId" : 2,
+    "age" : 32,
+    "id" : 2,
+    "skills" : [ "Sword fight", "Righteousness" ]
+  } ]
+}

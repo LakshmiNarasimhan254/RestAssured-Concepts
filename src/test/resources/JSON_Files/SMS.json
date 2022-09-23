@@ -2,7 +2,7 @@
   "Students": [
     {
       "first_Name": "Michael",
-      "last_Name": "Gopa",
+      "last_Name": "Gopal",
       "age": 34,
       "id": 1,
       "subjectId": 2,
@@ -13,7 +13,7 @@
     },
     {
       "first_Name": "Madan",
-      "Last_ Name": "Gopal",
+      "last_Name": "Gopal",
       "age": 27,
       "id": 2,
       "subjectId": 2,
@@ -100,8 +100,8 @@
       ]
     },
     {
-      "First Name": "Sakthivel",
-      "Last Name": "Counder",
+      "first_Name": "Sakthivel",
+      "last_Name": "Counder",
       "age": 34,
       "id": 10,
       "subjectId": 2,
@@ -111,8 +111,8 @@
       ]
     },
     {
-      "First Name": "Velu",
-      "Last Name": "Nayakar",
+      "first_Name": "Velu",
+      "last_Name": "Nayakar",
       "age": 48,
       "id": 11,
       "subjectId": 2,
@@ -122,8 +122,8 @@
       ]
     },
     {
-      "First Name": "Avatar",
-      "Last Name": "Singh",
+      "first_Name": "Avatar",
+      "last_Name": "Singh",
       "age": 50,
       "subjectId": 1,
       "id": 12,
