@@ -20,6 +20,8 @@
         <maven.compiler.target>11</maven.compiler.target>
         <slf4j-simple.version>1.6.6</slf4j-simple.version>
         <lombok.version>1.18.12</lombok.version>
+        <fixture-factory.version>3.1.0</fixture-factory.version>
+        <javafaker.version>1.0.2</javafaker.version>
 
     </properties>
 
@@ -104,8 +106,20 @@
             <version>${lombok.version}</version>
             <scope>${scope}</scope>
         </dependency>
-
-
+        <!-- https://mvnrepository.com/artifact/br.com.six2six/fixture-factory -->
+        <!-- Used for json pojo serialisation to create object templates   -->
+        <dependency>
+            <groupId>br.com.six2six</groupId>
+            <artifactId>fixture-factory</artifactId>
+            <version>${fixture-factory.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+        <!-- used to create some random values -->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>${javafaker.version}</version>
+        </dependency>
 
     </dependencies>
 
