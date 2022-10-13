@@ -3,6 +3,8 @@
 /workspace.xml
 *.html
 test-output/
+idea/*.xml
+
 
 
 
