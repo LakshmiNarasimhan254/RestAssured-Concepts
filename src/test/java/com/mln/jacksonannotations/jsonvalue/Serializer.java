@@ -1,4 +1,4 @@
-package com.mln.jackson_annotations.jsongetter;
+package com.mln.jacksonannotations.jsonvalue;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -13,7 +13,7 @@ public class Serializer {
 
     public Student setStudent() {
       student.setFirst_Name(faker.name().firstName());
-      student.setFirst_Name(faker.name().lastName());
+      student.setLast_Name(faker.name().lastName());
       student.setAge(faker.number().numberBetween(10,34));
       student.setId(faker.idNumber().valid());
       student.setSubjectId(faker.number().numberBetween(1,3));
@@ -22,7 +22,7 @@ public class Serializer {
     }
 
     @Test
-    public void jsonGetterSerializer() throws JsonProcessingException {
+    public void jsonValueSerializer() throws JsonProcessingException {
         ObjectMapper mapper =  new ObjectMapper();
         String serializedStudent= mapper.writerWithDefaultPrettyPrinter().writeValueAsString(setStudent());
         System.out.println(serializedStudent);

@@ -2,7 +2,6 @@ package com.mln.pojoConcepts.usingFixtureFactory.templates;
 
 import br.com.six2six.fixturefactory.Fixture;
 import br.com.six2six.fixturefactory.Rule;
-import br.com.six2six.fixturefactory.loader.FixtureFactoryLoader;
 import br.com.six2six.fixturefactory.loader.TemplateLoader;
 import com.mln.pojoConcepts.usingFixtureFactory.SMS;
 import com.mln.pojoConcepts.usingFixtureFactory.Student;

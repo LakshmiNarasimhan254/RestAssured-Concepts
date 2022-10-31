@@ -1,4 +1,4 @@
-package com.mln.jackson_annotations.jsonanygetter;
+package com.mln.jacksonannotations.jsonanygetter;
 
 
 

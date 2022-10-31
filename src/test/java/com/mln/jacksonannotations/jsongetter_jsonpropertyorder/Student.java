@@ -1,18 +1,15 @@
-package com.mln.jackson_annotations.jsongetter;
+package com.mln.jacksonannotations.jsongetter_jsonpropertyorder;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import java.util.List;
-
+   @JsonPropertyOrder(alphabetic = true)
+  // @JsonPropertyOrder({"id","first_Name","last_Name","age"})
    public class Student {
-
-        private String first_Name;
-
         private String last_Name;
-
+        private String first_Name;
         private int subjectId;
-
         private int age;
 
         private String id ;

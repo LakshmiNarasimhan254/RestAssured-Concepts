@@ -2,9 +2,6 @@ package com.mln.pojoConcepts;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jayway.jsonpath.Configuration;
-import com.jayway.jsonpath.JsonPath;
-import com.jayway.jsonpath.spi.mapper.JacksonMappingProvider;
 import org.testng.annotations.Test;
 
 import java.io.File;
