@@ -1,8 +1,7 @@
-package com.mln.jacksonannotations.jsonrootvalue;
+package com.mln.pojoConcepts.jacksonannotations.jsonserializer;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import com.github.javafaker.Faker;
 import org.testng.annotations.Test;
 
@@ -34,7 +33,9 @@ public class Serializer {
     @Test
     public void jsonSerializer() throws JsonProcessingException {
         ObjectMapper mapper =  new ObjectMapper();
-        mapper.enable(SerializationFeature.WRAP_ROOT_VALUE);
+        /*SimpleModule simpleModule = new SimpleModule();
+        simpleModule.addSerializer(Student.class,new CustomSerializer());
+        mapper.registerModule(simpleModule);*/
         String serializedStudent= mapper.writerWithDefaultPrettyPrinter().writeValueAsString(setStudent());
         System.out.println(serializedStudent);
     }

@@ -1,4 +1,4 @@
-package com.mln.jacksonannotations.jsongetter_jsonpropertyorder;
+package com.mln.pojoConcepts.jacksonannotations.jsongetter_jsonpropertyorder;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;

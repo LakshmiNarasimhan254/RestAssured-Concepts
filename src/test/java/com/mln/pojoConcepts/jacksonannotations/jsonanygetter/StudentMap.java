@@ -1,4 +1,4 @@
-package com.mln.jacksonannotations.jsonanygetter;
+package com.mln.pojoConcepts.jacksonannotations.jsonanygetter;
 
 
 

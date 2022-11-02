@@ -1,6 +1,6 @@
-package com.mln.jacksonannotations.jsonserializer;
+package com.mln.pojoConcepts.jacksonannotations.jsonserializer;
 
-import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import java.util.List;

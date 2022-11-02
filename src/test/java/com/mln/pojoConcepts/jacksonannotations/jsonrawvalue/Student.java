@@ -1,73 +1,79 @@
-package com.mln.jacksonannotations.jsonrootvalue;
+package com.mln.pojoConcepts.jacksonannotations.jsonrawvalue;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonRootName;
+import com.fasterxml.jackson.annotation.JsonGetter;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import com.fasterxml.jackson.annotation.JsonRawValue;
 
 import java.util.List;
 
-
-@JsonRootName(value = "students")
+@JsonPropertyOrder(alphabetic = true)
+// @JsonPropertyOrder({"id","first_Name","last_Name","age"})
 public class Student {
      private String last_Name;
      private String first_Name;
      private int subjectId;
      private int age;
+
+     @JsonRawValue
      private String id ;
+
      private List skills;
 
-     private Devices device;
-
-     @JsonProperty("firstName")
+     @JsonGetter(value = "FirstName")
      public String getFirst_Name() {
          return first_Name;
      }
+
      public void setFirst_Name(String first_Name) {
          this.first_Name = first_Name;
      }
-
-
-     @JsonProperty(value= "lastName")
+    @JsonGetter(value= "LastName")
      public String getLast_Name() {
          return last_Name;
      }
+
      public void setLast_Name(String last_Name) {
          this.last_Name = last_Name;
      }
 
-     @JsonProperty(value= "subjectId")
+     @JsonGetter(value= "SubjectId")
      public int getSubjectId() {
          return subjectId;
      }
+
+
      public void setSubjectId(int subjectId) {
          this.subjectId = subjectId;
      }
 
-     @JsonProperty(value= "age")
+    @JsonGetter(value= "Age")
     public int getAge() {
          return age;
      }
+
      public void setAge(int age) {
          this.age = age;
      }
 
-     @JsonProperty(value= "id")
-      public String getId() {
+    @JsonGetter(value= "Id")
+    @JsonRawValue
+    public String getId() {
          return id;
      }
-    public void setId(String id) {
+
+     public void setId(String id) {
          this.id = id;
      }
 
-     @JsonProperty(value= "skills")
+    @JsonGetter(value= "Skills")
     public List getSkills() {
          return skills;
      }
-    public void setSkills(List skills) {
+
+     public void setSkills(List skills) {
          this.skills = skills;
      }
 
-     @JsonProperty(value= "devices")
-    public Devices getDevice(){ return device;}
-    public void setDevices(Devices device){this.device=device;}
+
 
  }

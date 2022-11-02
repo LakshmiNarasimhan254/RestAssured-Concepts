@@ -1,4 +1,4 @@
-package com.mln.pojoConcepts;
+package com.mln.pojoConcepts.general;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

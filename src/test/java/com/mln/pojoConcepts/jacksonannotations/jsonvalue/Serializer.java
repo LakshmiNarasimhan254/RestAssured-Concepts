@@ -1,9 +1,8 @@
-package com.mln.jacksonannotations.jsonrawvalue;
+package com.mln.pojoConcepts.jacksonannotations.jsonvalue;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.javafaker.Faker;
-
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
@@ -23,7 +22,7 @@ public class Serializer {
     }
 
     @Test
-    public void jsonRawValueSerializer() throws JsonProcessingException {
+    public void jsonValueSerializer() throws JsonProcessingException {
         ObjectMapper mapper =  new ObjectMapper();
         String serializedStudent= mapper.writerWithDefaultPrettyPrinter().writeValueAsString(setStudent());
         System.out.println(serializedStudent);

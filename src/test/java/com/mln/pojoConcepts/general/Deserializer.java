@@ -1,10 +1,8 @@
-package com.mln.pojoConcepts;
+package com.mln.pojoConcepts.general;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.*;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import com.jayway.jsonpath.Configuration;

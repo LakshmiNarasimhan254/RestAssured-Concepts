@@ -1,4 +1,4 @@
-package com.mln.pojoConcepts;
+package com.mln.pojoConcepts.general;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

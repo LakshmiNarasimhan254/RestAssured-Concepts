@@ -1,4 +1,4 @@
-package com.mln.jacksonannotations.jsonvalue;
+package com.mln.pojoConcepts.jacksonannotations.jsonrawvalue;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -22,7 +22,7 @@ public class Serializer {
     }
 
     @Test
-    public void jsonValueSerializer() throws JsonProcessingException {
+    public void jsonRawValueSerializer() throws JsonProcessingException {
         ObjectMapper mapper =  new ObjectMapper();
         String serializedStudent= mapper.writerWithDefaultPrettyPrinter().writeValueAsString(setStudent());
         System.out.println(serializedStudent);

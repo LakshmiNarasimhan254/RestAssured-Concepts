@@ -1,9 +1,11 @@
-package com.mln.jacksonannotations.jsonrawvalue;
+package com.mln.pojoConcepts.jacksonannotations.jsonvalue;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.annotation.JsonRawValue;
+import com.fasterxml.jackson.annotation.JsonValue;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @JsonPropertyOrder(alphabetic = true)
@@ -56,7 +58,6 @@ public class Student {
      }
 
     @JsonGetter(value= "Id")
-    @JsonRawValue
     public String getId() {
          return id;
      }
@@ -74,6 +75,16 @@ public class Student {
          this.skills = skills;
      }
 
-
+    @JsonValue
+    public List<Object> useThisSerialiser(){
+         List<Object> serialiser = new ArrayList<>();
+         serialiser.add(this.first_Name);
+         serialiser.add(this.last_Name);
+         serialiser.add(this.age);
+         serialiser.add(this.id);
+         serialiser.add(this.subjectId);
+         serialiser.add(this.skills);
+        return serialiser;
+    }
 
  }

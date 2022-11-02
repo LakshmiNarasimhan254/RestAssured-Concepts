@@ -1,4 +1,4 @@
-package com.mln.jacksonannotations.jsonanygetter;
+package com.mln.pojoConcepts.jacksonannotations.jsonanygetter;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -33,6 +33,7 @@ public class Serializer {
         studentMap.setStudentMap(setMapValues());
 
         String serializedStudentMap=  mapper.writerWithDefaultPrettyPrinter().writeValueAsString(studentMap);
+
         System.out.println(serializedStudentMap);
     }
 

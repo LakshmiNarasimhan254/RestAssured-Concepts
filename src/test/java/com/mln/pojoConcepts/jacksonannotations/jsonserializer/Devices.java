@@ -1,4 +1,4 @@
-package com.mln.jacksonannotations.jsonrootvalue;
+package com.mln.pojoConcepts.jacksonannotations.jsonserializer;
 
 import lombok.Getter;
 import lombok.Setter;

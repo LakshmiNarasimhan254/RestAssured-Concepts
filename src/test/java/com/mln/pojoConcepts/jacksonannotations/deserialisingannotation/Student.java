@@ -1,21 +1,29 @@
-package com.mln.pojoConcepts;
+package com.mln.pojoConcepts.jacksonannotations.deserialisingannotation;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonSetter;
 
 import java.util.List;
 
 public class Student {
-	@JsonProperty("first_Name")
+
 	private String first_Name;
-	@JsonProperty("last_Name")
-	private String last_Name;
-	@JsonProperty("subjectId")
+ 	private String last_Name;
 	private int subjectId;
+	private int age;
+	private String id ;
+	@JsonProperty("Skills")
+	private List skills;
+
+	//@JsonCreator()
+	public Student(	@JsonProperty("Id")	String id){
+		this.id=id;
+	}
 
 	public String getFirst_Name() {
 		return first_Name;
 	}
-
+	@JsonSetter("FirstName")
 	public void setFirst_Name(String first_Name) {
 		this.first_Name = first_Name;
 	}
@@ -23,7 +31,7 @@ public class Student {
 	public String getLast_Name() {
 		return last_Name;
 	}
-
+	@JsonSetter("LastName")
 	public void setLast_Name(String last_Name) {
 		this.last_Name = last_Name;
 	}
@@ -31,41 +39,33 @@ public class Student {
 	public int getSubjectId() {
 		return subjectId;
 	}
-
+	@JsonSetter("SubjectId")
 	public void setSubjectId(int subjectId) {
 		this.subjectId = subjectId;
 	}
 
-	public int getAge() {
-		return age;
-	}
-
+	public int getAge() {return age;}
+	@JsonSetter("Age")
 	public void setAge(int age) {
 		this.age = age;
 	}
 
-	public int getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(int id) {
-		this.id = id;
-	}
+	//public void setId(String id) {this.id = id;	}
 
 	public List getSkills() {
 		return skills;
 	}
 
+
 	public void setSkills(List skills) {
 		this.skills = skills;
 	}
 
-	@JsonProperty("age")
-	private int age;
-	@JsonProperty("id")
-	private int id ;
-	@JsonProperty("skills")
-	private List skills;
+
 	
 	
 
