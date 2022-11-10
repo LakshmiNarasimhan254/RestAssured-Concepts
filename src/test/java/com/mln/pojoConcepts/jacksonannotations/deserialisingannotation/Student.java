@@ -1,7 +1,6 @@
 package com.mln.pojoConcepts.jacksonannotations.deserialisingannotation;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonSetter;
+import com.fasterxml.jackson.annotation.*;
 
 import java.util.List;
 
@@ -11,11 +10,17 @@ public class Student {
  	private String last_Name;
 	private int subjectId;
 	private int age;
+
 	private String id ;
 	@JsonProperty("Skills")
 	private List skills;
 
-	//@JsonCreator()
+
+
+	@JacksonInject
+	private Boolean isDayScholar;
+
+	@JsonCreator()
 	public Student(	@JsonProperty("Id")	String id){
 		this.id=id;
 	}
@@ -31,7 +36,7 @@ public class Student {
 	public String getLast_Name() {
 		return last_Name;
 	}
-	@JsonSetter("LastName")
+	@JsonAlias({"LastName","lastName"})
 	public void setLast_Name(String last_Name) {
 		this.last_Name = last_Name;
 	}
@@ -54,7 +59,7 @@ public class Student {
 		return id;
 	}
 
-	//public void setId(String id) {this.id = id;	}
+	public void setId(String id) {this.id = id;	}
 
 	public List getSkills() {
 		return skills;
@@ -65,9 +70,14 @@ public class Student {
 		this.skills = skills;
 	}
 
+	public Boolean getDayScholar() {
+		return isDayScholar;
+	}
 
-	
-	
+	public void setDayScholar(Boolean dayScholar) {
+		isDayScholar = dayScholar;
+
+	}
 
 
 	
