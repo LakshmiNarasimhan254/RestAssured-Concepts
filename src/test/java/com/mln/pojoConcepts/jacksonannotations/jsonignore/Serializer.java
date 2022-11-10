@@ -1,4 +1,4 @@
-package com.mln.pojoConcepts.jacksonannotations.jsonrawvalue;
+package com.mln.pojoConcepts.jacksonannotations.jsonignore;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import java.util.Arrays;
 
 public class Serializer {
-     Student student = new Student();
+    Student student = new Student();
      Faker faker = new Faker();
 
     public Student setStudent() {
@@ -22,7 +22,7 @@ public class Serializer {
     }
 
     @Test
-    public void jsonRawValueSerializer() throws JsonProcessingException {
+        public void jsonIgnoreSerializer() throws JsonProcessingException {
         ObjectMapper mapper =  new ObjectMapper();
         String serializedStudent= mapper.writerWithDefaultPrettyPrinter().writeValueAsString(setStudent());
         System.out.println(serializedStudent);
