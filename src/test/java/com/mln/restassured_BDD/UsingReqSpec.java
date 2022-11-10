@@ -4,13 +4,14 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.SpecificationQuerier;
 import org.json.simple.JSONObject;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
 
-public class UsingReqSpec {
+public class  UsingReqSpec {
 
     RequestSpecification rs1 = RestAssured.given();
 
@@ -21,6 +22,9 @@ public class UsingReqSpec {
         rs1.contentType(ContentType.JSON);
         RestAssured.requestSpecification =rs1; // if this is set then,
         // need not pass the specigication object in  every given/spec. This spec will be taken by default
+
+        //This line is added to know about getting the detail that were set in Request specification
+        System.out.println(SpecificationQuerier.query(rs1).getHeaders());
     }
     @Test
     public void getAllProducts() {
